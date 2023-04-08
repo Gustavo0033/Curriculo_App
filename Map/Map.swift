@@ -13,9 +13,13 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     var gerenciadorLocal = CLLocationManager()
     
     
+    @IBOutlet weak var velocidadeLabel: UILabel!
     @IBOutlet weak var Maps: MKMapView!
     
+    @IBOutlet weak var longetudeLabel: UILabel!
     
+    @IBOutlet weak var enderecoLabel: UILabel!
+    @IBOutlet weak var latitudeLabel: UILabel!
     
     
     
@@ -48,6 +52,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         */
     }
     
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         let localizacaoUsuario: CLLocation = locations.last! //recupera a ultima localizacao do usuario
@@ -67,6 +72,21 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         let regiao: MKCoordinateRegion =  MKCoordinateRegion(center: localizacao, span: areaVisualizacao)
 
          Maps.setRegion(regiao, animated: true)
+        
+    
+        
+        let longitudeLabel:String = "\(localizacaoUsuario.coordinate.longitude)"
+        let latitudeLabell:String = "\(localizacaoUsuario.coordinate.latitude)"
+        
+        
+        longetudeLabel.text = String(longitudeLabel)
+        latitudeLabel.text = String(latitudeLabell)
+        
+        
+        
+        
+        velocidadeLabel.text = String(localizacaoUsuario.speed)
+
     }
     // A partir daqui, quando o user nega a primeira solicitacao de permissao para acessar a localizacao, aparecera um outro aviso pedindo para ele ativar a lozalizacao para esse aplicativo
     
