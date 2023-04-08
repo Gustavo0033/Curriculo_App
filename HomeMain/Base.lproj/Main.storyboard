@@ -253,7 +253,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DWn-9u-STZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2956" y="1879"/>
+            <point key="canvasLocation" x="2850" y="1862"/>
         </scene>
         <!--Adicionar á lista-->
         <scene sceneID="q6f-vL-9jM">
@@ -420,7 +420,6 @@
         <!--Maps-->
         <scene sceneID="YcU-qZ-Opl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WaQ-uq-YYs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="Mc6-VP-cW5" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Maps" image="map.fill" catalog="system" id="ck8-br-87Y"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kND-vz-ddk">
@@ -428,9 +427,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Nv4-zb-wnK" kind="relationship" relationship="rootViewController" id="Mjg-Wj-V9p"/>
+                        <segue destination="Nv4-zb-wnK" kind="relationship" relationship="rootViewController" id="MqK-kb-LJk"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WaQ-uq-YYs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2850" y="1165"/>
         </scene>

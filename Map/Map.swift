@@ -68,4 +68,30 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
 
          Maps.setRegion(regiao, animated: true)
     }
+    // A partir daqui, quando o user nega a primeira solicitacao de permissao para acessar a localizacao, aparecera um outro aviso pedindo para ele ativar a lozalizacao para esse aplicativo
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if status != .authorizedWhenInUse{
+            
+            
+            let alertaController = UIAlertController(title: "Permissão de localização", message: "Necessario permissão para acessar sua localização", preferredStyle: .alert)
+            
+            let acaoConfiguracoes = UIAlertAction(title: "Abrir configurações", style: .default, handler: { (alertaController) in // estamos acessando as config do user para ele permitir que tenhamos acesso a localizacao
+        
+                if let configuracoes = NSURL(string: UIApplication.openSettingsURLString){ // url que faz abrir as configs do user
+                    UIApplication.shared.open( configuracoes as URL )
+                }
+            })
+                                                  
+                                                  
+            
+            var acaoCancelar = UIAlertAction(title: "Cancelar", style: .default, handler:nil)
+            alertaController.addAction(acaoConfiguracoes)
+            alertaController.addAction(acaoCancelar)
+            
+            present(alertaController, animated: true, completion: nil)
+        }
+        
+    }
+
 }
