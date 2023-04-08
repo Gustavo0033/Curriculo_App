@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57274D2629DCC32F00DD6D6A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57274D2529DCC32F00DD6D6A /* TableViewController.swift */; };
+		57274D2929DCC3D800DD6D6A /* AdicionarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57274D2829DCC3D800DD6D6A /* AdicionarViewController.swift */; };
+		57274D2C29DCC46A00DD6D6A /* TarefasUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57274D2B29DCC46900DD6D6A /* TarefasUserDefaults.swift */; };
 		573EC38D29DA3BA1007B18CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EC38C29DA3BA1007B18CE /* AppDelegate.swift */; };
 		573EC38F29DA3BA1007B18CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EC38E29DA3BA1007B18CE /* SceneDelegate.swift */; };
-		573EC39129DA3BA1007B18CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EC39029DA3BA1007B18CE /* ViewController.swift */; };
 		573EC39429DA3BA1007B18CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573EC39229DA3BA1007B18CE /* Main.storyboard */; };
 		573EC39629DA3BA1007B18CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573EC39529DA3BA1007B18CE /* Assets.xcassets */; };
 		573EC39929DA3BA1007B18CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573EC39729DA3BA1007B18CE /* LaunchScreen.storyboard */; };
 		573EC3A429DA3BA2007B18CE /* CurriculoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EC3A329DA3BA2007B18CE /* CurriculoTests.swift */; };
 		573EC3AE29DA3BA2007B18CE /* CurriculoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EC3AD29DA3BA2007B18CE /* CurriculoUITests.swift */; };
 		573EC3B029DA3BA2007B18CE /* CurriculoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573EC3AF29DA3BA2007B18CE /* CurriculoUITestsLaunchTests.swift */; };
+		57A244A429DE153100776488 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A244A329DE153100776488 /* Map.swift */; };
+		57ECF39D29DA4FA50012C4AC /* _.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ECF39C29DA4FA50012C4AC /* _.png */; };
+		57ECF3A029DA5C0A0012C4AC /* MainHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECF39F29DA5C0A0012C4AC /* MainHomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57274D2529DCC32F00DD6D6A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		57274D2829DCC3D800DD6D6A /* AdicionarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarViewController.swift; sourceTree = "<group>"; };
+		57274D2B29DCC46900DD6D6A /* TarefasUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasUserDefaults.swift; sourceTree = "<group>"; };
 		573EC38929DA3BA1007B18CE /* Curriculo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curriculo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573EC38C29DA3BA1007B18CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		573EC38E29DA3BA1007B18CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		573EC39029DA3BA1007B18CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		573EC39329DA3BA1007B18CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		573EC39529DA3BA1007B18CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		573EC39829DA3BA1007B18CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		573EC3A929DA3BA2007B18CE /* CurriculoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurriculoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573EC3AD29DA3BA2007B18CE /* CurriculoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculoUITests.swift; sourceTree = "<group>"; };
 		573EC3AF29DA3BA2007B18CE /* CurriculoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5789DFF629E0FD6800ED0BBB /* icons8-google-maps-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-google-maps-32.png"; sourceTree = "<group>"; };
+		5789DFF829E0FE7D00ED0BBB /* icons8-google-maps-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-google-maps-32.png"; path = "../../../Downloads/icons8-google-maps-32.png"; sourceTree = "<group>"; };
+		5789DFF929E0FEF900ED0BBB /* icons8-google-maps-32 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-google-maps-32 (1).png"; path = "../../../Downloads/icons8-google-maps-32 (1).png"; sourceTree = "<group>"; };
+		5789DFFA29E1003900ED0BBB /* icons8-geography-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-geography-32.png"; path = "../../../Downloads/icons8-geography-ios-16/icons8-geography-32.png"; sourceTree = "<group>"; };
+		5789DFFB29E1003900ED0BBB /* icons8-geography-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-geography-50.png"; path = "../../../Downloads/icons8-geography-ios-16/icons8-geography-50.png"; sourceTree = "<group>"; };
+		5789DFFC29E100EA00ED0BBB /* icons8-google-maps-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-google-maps-24.png"; path = "../../../Downloads/icons8-google-maps-24.png"; sourceTree = "<group>"; };
+		57A244A329DE153100776488 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		57ECF39C29DA4FA50012C4AC /* _.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _.png; path = ../../../Downloads/_.png; sourceTree = "<group>"; };
+		57ECF39F29DA5C0A0012C4AC /* MainHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +92,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57274D2429DCC2F600DD6D6A /* TableViewControllerLista */ = {
+			isa = PBXGroup;
+			children = (
+				57274D2529DCC32F00DD6D6A /* TableViewController.swift */,
+			);
+			path = TableViewControllerLista;
+			sourceTree = "<group>";
+		};
+		57274D2729DCC3A200DD6D6A /* AdicionarViewControllerLista */ = {
+			isa = PBXGroup;
+			children = (
+				57274D2829DCC3D800DD6D6A /* AdicionarViewController.swift */,
+			);
+			path = AdicionarViewControllerLista;
+			sourceTree = "<group>";
+		};
+		57274D2A29DCC45500DD6D6A /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				57274D2B29DCC46900DD6D6A /* TarefasUserDefaults.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
 		573EC38029DA3BA1007B18CE = {
 			isa = PBXGroup;
 			children = (
+				57A244A529DE17BD00776488 /* Assets */,
+				57A244A229DE151D00776488 /* Map */,
+				57274D2A29DCC45500DD6D6A /* UserDefaults */,
+				57274D2729DCC3A200DD6D6A /* AdicionarViewControllerLista */,
+				57274D2429DCC2F600DD6D6A /* TableViewControllerLista */,
+				57ECF39E29DA57F10012C4AC /* HomeMain */,
 				573EC38B29DA3BA1007B18CE /* Curriculo */,
 				573EC3A229DA3BA2007B18CE /* CurriculoTests */,
 				573EC3AC29DA3BA2007B18CE /* CurriculoUITests */,
@@ -101,8 +147,7 @@
 			children = (
 				573EC38C29DA3BA1007B18CE /* AppDelegate.swift */,
 				573EC38E29DA3BA1007B18CE /* SceneDelegate.swift */,
-				573EC39029DA3BA1007B18CE /* ViewController.swift */,
-				573EC39229DA3BA1007B18CE /* Main.storyboard */,
+				57ECF39C29DA4FA50012C4AC /* _.png */,
 				573EC39529DA3BA1007B18CE /* Assets.xcassets */,
 				573EC39729DA3BA1007B18CE /* LaunchScreen.storyboard */,
 				573EC39A29DA3BA1007B18CE /* Info.plist */,
@@ -125,6 +170,36 @@
 				573EC3AF29DA3BA2007B18CE /* CurriculoUITestsLaunchTests.swift */,
 			);
 			path = CurriculoUITests;
+			sourceTree = "<group>";
+		};
+		57A244A229DE151D00776488 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				57A244A329DE153100776488 /* Map.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		57A244A529DE17BD00776488 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5789DFFA29E1003900ED0BBB /* icons8-geography-32.png */,
+				5789DFFB29E1003900ED0BBB /* icons8-geography-50.png */,
+				5789DFFC29E100EA00ED0BBB /* icons8-google-maps-24.png */,
+				5789DFF829E0FE7D00ED0BBB /* icons8-google-maps-32.png */,
+				5789DFF929E0FEF900ED0BBB /* icons8-google-maps-32 (1).png */,
+				5789DFF629E0FD6800ED0BBB /* icons8-google-maps-32.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		57ECF39E29DA57F10012C4AC /* HomeMain */ = {
+			isa = PBXGroup;
+			children = (
+				57ECF39F29DA5C0A0012C4AC /* MainHomeController.swift */,
+				573EC39229DA3BA1007B18CE /* Main.storyboard */,
+			);
+			path = HomeMain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +309,7 @@
 				573EC39929DA3BA1007B18CE /* LaunchScreen.storyboard in Resources */,
 				573EC39629DA3BA1007B18CE /* Assets.xcassets in Resources */,
 				573EC39429DA3BA1007B18CE /* Main.storyboard in Resources */,
+				57ECF39D29DA4FA50012C4AC /* _.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573EC39129DA3BA1007B18CE /* ViewController.swift in Sources */,
+				57274D2929DCC3D800DD6D6A /* AdicionarViewController.swift in Sources */,
 				573EC38D29DA3BA1007B18CE /* AppDelegate.swift in Sources */,
+				57ECF3A029DA5C0A0012C4AC /* MainHomeController.swift in Sources */,
+				57A244A429DE153100776488 /* Map.swift in Sources */,
+				57274D2C29DCC46A00DD6D6A /* TarefasUserDefaults.swift in Sources */,
 				573EC38F29DA3BA1007B18CE /* SceneDelegate.swift in Sources */,
+				57274D2629DCC32F00DD6D6A /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +523,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +551,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
