@@ -66,14 +66,9 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         let deltaLatitude: CLLocationDegrees = 0.01 // distancia que temos do ponto que escolhemos, isso é o zoom
         let deltaLongitude: CLLocationDegrees = 0.01 // distancia que temos do ponto que escolhemos, isso é o zoom
         
-        let localizacao: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
+        let localizaao: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
         
         let areaVisualizacao: MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: deltaLatitude, longitudeDelta: deltaLongitude)
-        let regiao: MKCoordinateRegion =  MKCoordinateRegion(center: localizacao, span: areaVisualizacao)
-
-         Maps.setRegion(regiao, animated: true)
-        
-    
         
         let longitudeLabel:String = "\(localizacaoUsuario.coordinate.longitude)"
         let latitudeLabell:String = "\(localizacaoUsuario.coordinate.latitude)"
@@ -81,12 +76,16 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         
         longetudeLabel.text = String(longitudeLabel)
         latitudeLabel.text = String(latitudeLabell)
+    
         
         
         
+ 
         
-        velocidadeLabel.text = String(localizacaoUsuario.speed)
-
+ 
+        
+        
+    
     }
     // A partir daqui, quando o user nega a primeira solicitacao de permissao para acessar a localizacao, aparecera um outro aviso pedindo para ele ativar a lozalizacao para esse aplicativo
     

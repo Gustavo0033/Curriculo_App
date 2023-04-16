@@ -63,6 +63,13 @@
 		5789DFFB29E1003900ED0BBB /* icons8-geography-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-geography-50.png"; path = "../../../Downloads/icons8-geography-ios-16/icons8-geography-50.png"; sourceTree = "<group>"; };
 		5789DFFC29E100EA00ED0BBB /* icons8-google-maps-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-google-maps-24.png"; path = "../../../Downloads/icons8-google-maps-24.png"; sourceTree = "<group>"; };
 		57A244A329DE153100776488 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		57C4527929ECAE2C00DCD29C /* LogoCurriculo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogoCurriculo.png; path = ../../LogoCurriculo.png; sourceTree = "<group>"; };
+		57C4527A29ECB3CB00DCD29C /* icons8-notes-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-notes-32.png"; path = "../../../Downloads/icons8-notes-32.png"; sourceTree = "<group>"; };
+		57C4527B29ECB3DC00DCD29C /* icons8-notes-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-notes-64.png"; path = "../../../Downloads/icons8-notes-64.png"; sourceTree = "<group>"; };
+		57C4527C29ECB45600DCD29C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../Downloads/imagens-minhas-viagens/logo.png"; sourceTree = "<group>"; };
+		57C4527D29ECB55500DCD29C /* _ 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "_ 1.png"; path = "../../../Downloads/_ 1.png"; sourceTree = "<group>"; };
+		57C4527E29ECB59300DCD29C /* WHO AM I_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WHO AM I_.png"; path = "../../../Downloads/Untitled/WHO AM I_.png"; sourceTree = "<group>"; };
+		57C4527F29ECB5A100DCD29C /* 1939574 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1939574 1.png"; path = "../../../Downloads/Untitled/1939574 1.png"; sourceTree = "<group>"; };
 		57ECF39C29DA4FA50012C4AC /* _.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _.png; path = ../../../Downloads/_.png; sourceTree = "<group>"; };
 		57ECF39F29DA5C0A0012C4AC /* MainHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,8 +192,15 @@
 			children = (
 				5789DFFA29E1003900ED0BBB /* icons8-geography-32.png */,
 				5789DFFB29E1003900ED0BBB /* icons8-geography-50.png */,
+				57C4527A29ECB3CB00DCD29C /* icons8-notes-32.png */,
+				57C4527F29ECB5A100DCD29C /* 1939574 1.png */,
+				57C4527E29ECB59300DCD29C /* WHO AM I_.png */,
+				57C4527C29ECB45600DCD29C /* logo.png */,
 				5789DFFC29E100EA00ED0BBB /* icons8-google-maps-24.png */,
+				57C4527929ECAE2C00DCD29C /* LogoCurriculo.png */,
+				57C4527D29ECB55500DCD29C /* _ 1.png */,
 				5789DFF829E0FE7D00ED0BBB /* icons8-google-maps-32.png */,
+				57C4527B29ECB3DC00DCD29C /* icons8-notes-64.png */,
 				5789DFF929E0FEF900ED0BBB /* icons8-google-maps-32 (1).png */,
 				5789DFF629E0FD6800ED0BBB /* icons8-google-maps-32.png */,
 			);
